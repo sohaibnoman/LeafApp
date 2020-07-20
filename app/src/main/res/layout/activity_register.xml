@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/reg_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <!-- get color -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reg_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:gravity="start|center"
+            app:icon="@drawable/ic_close" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reg_reg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:gravity="end|center"
+            app:strokeColor="@color/colorPrimaryVariant"
+            android:text="Register" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reg_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/colorInputFieldsBackground"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reg_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/colorInputFieldsBackground"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/colorInputFieldsBackground"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="password_toggle"
+        android:hint="Password" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/colorInputFieldsBackground"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/reg_reg_btn"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+    <!--        android:textColor="@color/onPrimaryVariant"-->
+    <!--        app:strokeColor="@color/onPrimaryVariant"-->
+    <!--        app:strokeWidth="1dp"-->
+    <!--        android:text="Create Account" />-->
+
+</LinearLayout>

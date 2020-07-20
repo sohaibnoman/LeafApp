@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87C279</color>
+    <color name="colorPrimaryVariant">#419C5D</color>
+
+    <color name="onPrimaryVariant">#FFFFFF</color>
+
+    <color name="colorInputFieldsBackground">@android:color/transparent</color>
+    <color name="colorText">#808080</color>
+</resources>
