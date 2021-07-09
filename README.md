@@ -4,6 +4,11 @@
 
 ![short_feature_branch](https://user-images.githubusercontent.com/42720743/125068483-d1e3c600-e0b5-11eb-997f-bb1c27776585.png)
 
+![long_feature_branch](https://user-images.githubusercontent.com/42720743/125068582-ecb63a80-e0b5-11eb-97b2-198503e464a6.png)
+
+![trunk](https://user-images.githubusercontent.com/42720743/125068594-efb12b00-e0b5-11eb-9c31-c51dc7205b85.png)
+
+
 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Firebase</title><path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z"/></svg>
 
